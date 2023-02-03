@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>ScoreBoard</title>
+</head>
+    <body>
+    
+        <div class="container">
+            <div>
+                <h3 id="home">HOME</h3>
+                <span id="home-point">0</span>
+                <div id="home-btn">
+                    <button class="point-btn-home" onclick="plusone()">+1</button>
+                    <button class="point-btn-home" onclick="plustwo()">+2</button>
+                    <button class="point-btn-home" onclick="plusthree()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3 id="guest">GUEST</h3>
+                <span id="guest-point">0</span>
+                <div id="guest-btn">
+                    <button class="point-btn-guest" onclick="gplusone()">+1</button>
+                    <button class="point-btn-guest" onclick="gplustwo()">+2</button>
+                    <button class="point-btn-guest" onclick="gplusthree()">+3</button>
+                </div>
+            </div>
+            
+            <button id="reset-btn" onclick="reset()">RESET</button>
+            </div>
+            <script src="scoreboard.js"></script>
+            </body>
+            
+            </html>
